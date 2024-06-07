@@ -57,7 +57,7 @@ const App = () => {
   // },[isSelected]);
 
   return (
-    <div className={`bg-gradient-to-br ${BackgroundStyle} p`}>
+    <div className={`check bg-gradient-to-br ${BackgroundStyle} p-5`}>
       <div className={`  mx-auto max-w-screen-lg mb-3 py-5 px-32 bg-gradient-to-br shadow-xl rounded-3xl shadow-black-300 ${AppStyle} text-white `}>
           <TopButtons setQuery={setQuery}/>
           <Inputs  setQuery={setQuery} setUnits={setUnits} />
